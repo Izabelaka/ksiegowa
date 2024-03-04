@@ -1,19 +1,15 @@
-// $action: #a65b3f;
-// $action: #d4a373;
-$action: #c8a588;
-
-$text: #53412c;
-
-$textAccordion: rgba(255, 255, 255, 0.6);
-
-$phone: rgba(28, 174, 28, 0.982);
-
-$background: #f2f2f2;
-$color1: #b58863c5;
-$color2: #ffdab9;
-$grey: #f7f7f7;
-$color3: #ffe4b5;
-$darkbrown: #6b5338;
-
-$strona: rgb(236, 226, 217);
-$strona2: rgb(224, 205, 188);
+// $main-color: #213533;
+$main-color: linear-gradient(
+	to right,
+	#000000,
+	#254335,
+	#274637,
+	#325643,
+	#102f27,
+	#000000
+);
+$text: whitesmoke;
+$logo: rgb(41, 35, 35);
+$secondlogo: #f8b75b;
+// $mobileMenu: #27513d;
+$mobileMenu: linear-gradient(to right, #011409, #05350f, #051011);

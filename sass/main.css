@@ -71,18 +71,17 @@
   font-size: 22px;
 }
 .menu__btn {
-  width: 200px;
-  height: 60px;
+  width: 160px;
+  height: 40px;
   border-radius: 8px;
   border: none;
   color: whitesmoke;
   background-image: linear-gradient(to right, #000000, #254335, #274637, #325643, #102f27, #000000);
   text-transform: uppercase;
   font-weight: bold;
-  font-size: 18px;
+  font-size: 14px;
   cursor: pointer;
   transition: color 0.6s, background-image 5s;
-  font-family: "Lora", serif;
 }
 .menu__btn:hover {
   background-image: linear-gradient(to right, #011409, #05350f, #051011);
@@ -188,37 +187,8 @@ ul {
     background-image: url("../images/zestaw-shoyu.jpg");
   }
 }
-.regulations h5 {
-  font-size: 2.5rem;
-  padding: 3rem;
-  padding-top: 10rem;
-}
-.regulations__title {
-  font-size: 1.4rem;
-  padding: 1rem;
-  margin-left: 30px;
-}
-.regulations__text {
-  font-size: 1.4rem;
-  margin-left: 30px;
-  padding: 0.4rem;
-}
-.regulations__text__two {
-  margin-left: 60px;
-}
-.regulations__text__three {
-  margin-left: 80px;
-}
-.regulations__text__four {
-  margin-left: 100px;
-}
-
 .footer {
   border-top: 1px solid rgba(255, 255, 255, 0.6);
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
 }
 .footer__text {
   padding: 1rem;
@@ -232,71 +202,6 @@ ul {
 }
 .footer__text img {
   max-width: 150px;
-}
-.footer__regulations {
-  text-decoration: none;
-  color: #fff;
-  font-weight: 100;
-  font-size: 1.3rem;
-  border-bottom: 1px solid #fff;
-  padding-top: 1rem;
-}
-
-.footer__regulations:hover,
-.footer__regulations:focus {
-  color: #f8b75b;
-  border-bottom: 1px solid #f8b75b;
-}
-
-.cookie-container {
-  position: fixed;
-  bottom: 20px;
-  left: 50%;
-  transform: translateX(-50%);
-  background-color: #f2f2f2;
-  color: black;
-  padding: 20px;
-  border-radius: 5px;
-  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  z-index: 1000;
-}
-
-.cookie-text {
-  font-size: 1.3rem;
-  margin: 0;
-  line-height: 1.5;
-  text-align: center;
-}
-.cookie-text a {
-  text-decoration: none;
-  border-bottom: 1px solid #f8b75b;
-  color: #f8b75b;
-  font-weight: bold;
-}
-
-.cookie-btn {
-  margin-top: 10px;
-  padding: 1rem 3rem;
-  background-color: #102f27;
-  color: #fff;
-  border: none;
-  border-radius: 5px;
-  cursor: pointer;
-  align-items: center;
-  max-width: 60%;
-}
-
-.cookie-btn:hover,
-.cookie-btn:focus {
-  background-color: #f8b75b;
-}
-
-.cookie-none {
-  display: none;
 }
 
 .phone-btn {
@@ -346,9 +251,7 @@ a {
 
 body {
   font-family: "Lora", serif;
-  background-color: #102f27;
   background-image: linear-gradient(to right, #000000, #254335, #274637, #325643, #102f27, #000000);
-  overscroll-behavior-y: none;
 }
 
 .bodyScroll {
@@ -456,9 +359,6 @@ body {
   display: flex;
   flex-direction: column;
   z-index: 100;
-}
-.nav-mobile__logo img {
-  max-width: 100px;
 }
 .nav-mobile__logo a {
   position: absolute;
